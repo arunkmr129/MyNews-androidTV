@@ -1,0 +1,14 @@
+<resources>
+
+    <style name="Theme.MyNewsandroidTV" parent="@style/Theme.Leanback" />
+
+    <style name="CustomTheme" parent="@android:style/Theme.Translucent">
+        <item name="android:windowAnimationStyle">@style/CustomDialogTheme</item>
+    </style>
+    <style name="CustomDialogTheme">
+        <item name="android:windowEnterAnimation">@anim/spin_in</item>
+        <item name="android:windowExitAnimation">@anim/spin_out</item>
+        <item name="android:actionButtonStyle">@null</item>
+    </style>
+</resources>
+

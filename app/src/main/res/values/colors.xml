@@ -1,0 +1,31 @@
+<resources>
+    <color name="background_gradient_start">#000000</color>
+    <color name="background_gradient_end">#DDDDDD</color>
+    <color name="fastlane_background">#0096a6</color>
+    <color name="search_opaque">#ffaa3f</color>
+    <color name="selected_background">#ffaa3f</color>
+    <color name="default_background">#3d3d3d</color>
+
+    <color name="transparent">@android:color/transparent</color>
+
+
+    <!--left menu used color-->
+    <color name="menu_selected_row_background">#00316c</color>
+    <color name="menu_unselected_row_background">#00316c</color>
+    <color name="menu_pressed_row_background">#00316c</color>
+
+    <color name="menu_selected_text_color">#ffffff</color>
+    <color name="menu_unselect_text_color">#ff0008</color>
+    <color name="menu_pressed_text_color">#dddddd</color>
+
+    <color name="white_color">#ffffff</color>
+    <color name="black_color">#000000</color>
+
+    <color name="btn_selected_bg">#00316c</color>
+    <color name="btn_un_selected_bg">#cbcdcc</color>
+
+    <color name="btn_selected_text_color">@color/white_color</color>
+    <color name="btn_un_selected_text_color">@color/black_color</color>
+    <color name="error_dialog_msg_text_color">@color/white_color</color>
+
+</resources>
