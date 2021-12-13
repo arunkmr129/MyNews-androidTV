@@ -225,6 +225,8 @@ public class MainActivity extends FragmentActivity {
         } else if (leftMenuListView != null && !leftMenuListView.hasFocus()) {
             selectedCategoryItemIndex = -1;
             makeLeftMenuFocusable();
+        }else {
+            super.onBackPressed();
         }
     }
 
